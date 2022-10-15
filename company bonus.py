@@ -14,8 +14,7 @@ timespent=int(input("write timespent="))
 
 if timespent>10: 
     bonus=10/100*salary
-     print("your bonus is",salary+bonus) 
+    print("your bonus is",salary+bonus)  
 elif timespent>6 and timespent<10: 
-    bonus=6/100*salary
-     print("your bonus is", salary+8%) 
-e
+    bonus=8/100*salary    
+    print("your bonus is",salary+bonus) 
