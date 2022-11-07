@@ -17,4 +17,8 @@ if timespent>10:
     print("your bonus is",salary+bonus)  
 elif timespent>6 and timespent<10: 
     bonus=8/100*salary    
-    print("your bonus is",salary+bonus) 
+    print("your bonus is",salary+bonus)
+else:
+     timespent>0 and timespent<6
+     bonus=5/100*salary
+     print("your bonus is", salary+bonus)
